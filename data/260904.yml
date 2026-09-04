@@ -7,7 +7,7 @@ about:
   head: 1b86f07
   archived: false
   latestVersion: tig-2.6.1
-  collectedAt: 2026-09-04T19:36:19Z
+  collectedAt: 2026-09-04T20:54:40Z
 timeline:
   created: 2009-03-01
   lastCommit: 2026-07-27
@@ -84,6 +84,79 @@ total:
   openIssue: 197
   commit: 2915
 ---
+path: /home/runner/.x-repo/github.com/jonas/tig
+collectedAt: 2026-09-04T20:54:41Z
+loc:
+  C:
+    code: 34988
+    comments: 1566
+    blanks: 3817
+    files: 48
+  Sh:
+    code: 13539
+    comments: 606
+    blanks: 2625
+    files: 166
+  AsciiDoc:
+    code: 3250
+    comments: 15
+    blanks: 871
+    files: 9
+  CHeader:
+    code: 2497
+    comments: 1329
+    blanks: 673
+    files: 43
+  Autoconf:
+    code: 2166
+    comments: 6
+    blanks: 96
+    files: 6
+  M4:
+    code: 644
+    comments: 291
+    blanks: 73
+    files: 5
+  Makefile:
+    code: 374
+    comments: 18
+    blanks: 90
+    files: 1
+  Bash:
+    code: 64
+    comments: 40
+    blanks: 6
+    files: 1
+  Bitbake:
+    code: 56
+    comments: 3
+    blanks: 9
+    files: 1
+  Yaml:
+    code: 45
+    comments: 0
+    blanks: 8
+    files: 2
+  Json:
+    code: 16
+    comments: 0
+    blanks: 0
+    files: 1
+  Zsh:
+    code: 11
+    comments: 17
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 84
+    blanks: 19
+    files: 2
+total:
+  code: 57650
+  comments: 3975
+  blanks: 8291
+  files: 286
 ---
 date: "2026-08-24"
 repo:
