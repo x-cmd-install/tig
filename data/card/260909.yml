@@ -7,7 +7,7 @@ about:
   latestVersion: "tig-2.6.1"
   latestRelease: "tig-2.6.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T06:03:39Z
+  collectedAt: 2026-09-09T20:24:32Z
 timeline:
   created: 2009-03-01
   lastCommit: 2026-07-27
@@ -87,7 +87,7 @@ total:
   commit: 2915
 ---
 path: /home/runner/.x-repo/github.com/jonas/tig
-collectedAt: 2026-09-09T06:03:41Z
+collectedAt: 2026-09-09T20:24:35Z
 loc:
   C:
     code: 34988
