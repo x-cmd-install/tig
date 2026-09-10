@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1200780,
       "digest": "sha256:5adeabdcd93aa0423d618da8b878b53482bef6e0e9e1fe224acc0f18031fe91e",
-      "download_count": 2745,
+      "download_count": 2787,
       "created_at": "2026-06-13T17:32:51Z",
       "updated_at": "2026-06-13T17:32:53Z",
       "browser_download_url": "https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz"
