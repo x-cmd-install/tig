@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,332 · **Forks**: 665 · **Open issues**: 921 · **Contributors**: 166
+- **Stars**: 13,334 · **Forks**: 666 · **Open issues**: 921 · **Contributors**: 166
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 6 | 1 | 3 | 0 |
-| last60d | 2026-07-15 | 0 | 3 | 6 | 1 | 6 | 5 |
-| 90d | 2026-06-15 | 0 | 3 | 7 | 1 | 9 | 6 |
-| last180d | 2026-03-17 | 1 | 4 | 11 | 7 | 15 | 22 |
-| 360d | 2025-09-18 | 1 | 5 | 11 | 13 | 26 | 35 |
-| last720d | 2024-09-23 | 4 | 8 | 16 | 30 | 32 | 80 |
+| 30d | 2026-08-15 | 0 | 0 | 6 | 1 | 3 | 0 |
+| last60d | 2026-07-16 | 0 | 3 | 6 | 1 | 6 | 5 |
+| 90d | 2026-06-16 | 0 | 3 | 7 | 1 | 9 | 5 |
+| last180d | 2026-03-18 | 1 | 4 | 11 | 7 | 15 | 21 |
+| 360d | 2025-09-19 | 1 | 5 | 11 | 13 | 26 | 35 |
+| last720d | 2024-09-24 | 4 | 8 | 16 | 30 | 32 | 80 |
 
 ## Release assets
 
@@ -71,25 +71,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [tig-2.6.1.tar.gz](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz) | 1.1 MiB | `native/unknown` |
 | [tig-2.6.1.tar.gz.sha256](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz.sha256) | 83 B | `other` |
-
-## Distribution status
-
-Reported by **154** distros on [repology.org](https://repology.org/project/tig). **53** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.6.1` | ✅ latest |
-| Debian 14 | `2.6.1` | ✅ latest |
-| Debian 13 | `2.5.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.5.8` | ⚠️ outdated |
-| Arch | `2.6.1` | ✅ latest |
-| Homebrew | `2.6.1` | ✅ latest |
-| Fedora rawhide | `2.6.1` | ✅ latest |
-| Nix unstable | `2.6.1` | ✅ latest |
-| Void | `2.6.1` | ✅ latest |
-| Alpine edge | `2.6.1` | ✅ latest |
-| openSUSE Tumbleweed | `2.6.1` | ✅ latest |
 
 ## Improve this data
 
@@ -100,4 +81,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:14:37Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:26:41Z._
