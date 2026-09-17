@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 6 | 1 | 3 | 0 |
-| last60d | 2026-07-18 | 0 | 3 | 6 | 1 | 6 | 5 |
-| 90d | 2026-06-18 | 0 | 3 | 7 | 1 | 9 | 5 |
-| last180d | 2026-03-20 | 1 | 4 | 11 | 7 | 15 | 21 |
-| 360d | 2025-09-21 | 1 | 5 | 11 | 13 | 26 | 35 |
-| last720d | 2024-09-26 | 4 | 8 | 16 | 30 | 32 | 80 |
+| 30d | 2026-08-18 | 0 | 0 | 6 | 1 | 3 | 0 |
+| last60d | 2026-07-19 | 0 | 3 | 6 | 1 | 6 | 5 |
+| 90d | 2026-06-19 | 0 | 3 | 7 | 1 | 9 | 5 |
+| last180d | 2026-03-21 | 1 | 4 | 11 | 7 | 15 | 21 |
+| 360d | 2025-09-22 | 1 | 5 | 11 | 13 | 26 | 35 |
+| last720d | 2024-09-27 | 4 | 8 | 16 | 30 | 32 | 80 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:28:57Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:24:20Z._
