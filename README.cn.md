@@ -30,8 +30,8 @@ x install tig
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -48,7 +48,7 @@ x install tig
 
 ## 流行度
 
-- **Star**: 13,361 · **Fork**: 672 · **开放 issue**: 922 · **贡献者**: 168
+- **Star**: 13,363 · **Fork**: 672 · **开放 issue**: 922 · **贡献者**: 168
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install tig
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 0 | 3 | 0 | 1 | 4 |
-| last60d | 2026-08-13 | 0 | 3 | 6 | 3 | 2 | 7 |
-| 90d | 2026-07-14 | 0 | 6 | 6 | 3 | 5 | 13 |
-| last180d | 2026-04-15 | 1 | 7 | 9 | 8 | 13 | 22 |
-| 360d | 2025-10-17 | 1 | 8 | 11 | 15 | 24 | 42 |
-| last720d | 2024-10-22 | 4 | 11 | 16 | 33 | 30 | 81 |
+| 30d | 2026-09-13 | 0 | 0 | 3 | 0 | 1 | 4 |
+| last60d | 2026-08-14 | 0 | 3 | 6 | 3 | 2 | 7 |
+| 90d | 2026-07-15 | 0 | 6 | 6 | 3 | 5 | 13 |
+| last180d | 2026-04-16 | 1 | 7 | 9 | 8 | 13 | 22 |
+| 360d | 2025-10-18 | 1 | 8 | 11 | 15 | 24 | 42 |
+| last720d | 2024-10-23 | 4 | 11 | 16 | 33 | 30 | 81 |
 
 ## Release 资产
 
@@ -81,4 +81,4 @@ tig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261012.yml` · 2026-10-12T07:09:18Z._
+_数据快照: `data/card/261013.yml` · 2026-10-13T07:57:19Z._
