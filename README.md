@@ -14,12 +14,12 @@ x install tig
 
 ## Code insight
 
-Total: **57,849** lines of code across **275** files in the top 5 languages.
+Total: **57,885** lines of code across **276** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 35,037 | 1,581 | 3,826 | 48 |
-| Sh | 13,688 | 627 | 2,724 | 169 |
+| Sh | 13,724 | 628 | 2,734 | 170 |
 | AsciiDoc | 3,250 | 15 | 871 | 9 |
 | CHeader | 2,498 | 1,330 | 673 | 43 |
 | Autoconf | 2,166 | 6 | 96 | 6 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `tig-2.6.1` (2026-06-13)
-- **Last commit**: 2026-10-08
+- **Last commit**: 2026-10-13
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 13,363 · **Forks**: 672 · **Open issues**: 922 · **Contributors**: 168
+- **Stars**: 13,363 · **Forks**: 672 · **Open issues**: 922 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 299 · **Open PRs**: 37 · **Closed issues**: 728 · **Open issues**: 194 · **Commits**: 2924
+- **Releases**: 34 · **Merged PRs**: 300 · **Open PRs**: 36 · **Closed issues**: 728 · **Open issues**: 194 · **Commits**: 2926
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 3 | 0 | 1 | 4 |
-| last60d | 2026-08-14 | 0 | 3 | 6 | 3 | 2 | 7 |
-| 90d | 2026-07-15 | 0 | 6 | 6 | 3 | 5 | 13 |
-| last180d | 2026-04-16 | 1 | 7 | 9 | 8 | 13 | 22 |
-| 360d | 2025-10-18 | 1 | 8 | 11 | 15 | 24 | 42 |
-| last720d | 2024-10-23 | 4 | 11 | 16 | 33 | 30 | 81 |
+| 30d | 2026-09-14 | 0 | 1 | 2 | 0 | 1 | 6 |
+| last60d | 2026-08-15 | 0 | 4 | 5 | 3 | 2 | 9 |
+| 90d | 2026-07-16 | 0 | 7 | 5 | 3 | 5 | 15 |
+| last180d | 2026-04-17 | 1 | 8 | 8 | 8 | 13 | 24 |
+| 360d | 2025-10-19 | 1 | 9 | 10 | 15 | 24 | 44 |
+| last720d | 2024-10-24 | 4 | 12 | 15 | 33 | 30 | 83 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:57:19Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:57:28Z._
