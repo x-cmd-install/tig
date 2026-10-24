@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,368 · **Forks**: 674 · **Open issues**: 923 · **Contributors**: 169
+- **Stars**: 13,367 · **Forks**: 674 · **Open issues**: 923 · **Contributors**: 169
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 1 | 5 | 0 | 2 | 4 |
-| last60d | 2026-08-24 | 0 | 3 | 6 | 1 | 3 | 7 |
-| 90d | 2026-07-25 | 0 | 7 | 8 | 3 | 6 | 13 |
-| last180d | 2026-04-26 | 1 | 7 | 11 | 8 | 13 | 24 |
-| 360d | 2025-10-28 | 1 | 9 | 13 | 14 | 24 | 44 |
-| last720d | 2024-11-02 | 4 | 12 | 18 | 30 | 31 | 82 |
+| 30d | 2026-09-24 | 0 | 1 | 5 | 0 | 2 | 4 |
+| last60d | 2026-08-25 | 0 | 3 | 6 | 1 | 2 | 7 |
+| 90d | 2026-07-26 | 0 | 4 | 8 | 3 | 5 | 13 |
+| last180d | 2026-04-27 | 1 | 7 | 11 | 8 | 13 | 24 |
+| 360d | 2025-10-29 | 1 | 9 | 13 | 14 | 23 | 44 |
+| last720d | 2024-11-03 | 4 | 12 | 18 | 30 | 31 | 81 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **152** distros on [repology.org](https://repology.org/project/tig). **55** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
+Reported by **153** distros on [repology.org](https://repology.org/project/tig). **56** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:47:28Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:35:05Z._
