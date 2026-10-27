@@ -30,8 +30,8 @@ Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,369 · **Forks**: 674 · **Open issues**: 923 · **Contributors**: 169
+- **Stars**: 13,371 · **Forks**: 674 · **Open issues**: 923 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 300 · **Open PRs**: 39 · **Closed issues**: 728 · **Open issues**: 195 · **Commits**: 2926
+- **Releases**: 34 · **Merged PRs**: 300 · **Open PRs**: 41 · **Closed issues**: 728 · **Open issues**: 195 · **Commits**: 2926
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 1 | 5 | 0 | 1 | 4 |
-| last60d | 2026-08-27 | 0 | 3 | 5 | 1 | 2 | 6 |
-| 90d | 2026-07-28 | 0 | 4 | 8 | 3 | 5 | 9 |
-| last180d | 2026-04-29 | 1 | 7 | 11 | 8 | 13 | 23 |
-| 360d | 2025-10-31 | 1 | 9 | 13 | 14 | 23 | 44 |
-| last720d | 2024-11-05 | 4 | 12 | 18 | 30 | 31 | 81 |
+| 30d | 2026-09-27 | 0 | 1 | 7 | 0 | 1 | 4 |
+| last60d | 2026-08-28 | 0 | 3 | 7 | 1 | 2 | 6 |
+| 90d | 2026-07-29 | 0 | 4 | 10 | 3 | 5 | 9 |
+| last180d | 2026-04-30 | 1 | 7 | 13 | 8 | 13 | 23 |
+| 360d | 2025-11-01 | 1 | 9 | 15 | 14 | 23 | 44 |
+| last720d | 2024-11-06 | 4 | 12 | 20 | 30 | 31 | 81 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:58:17Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:17:35Z._
