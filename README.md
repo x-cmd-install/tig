@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,376 · **Forks**: 673 · **Open issues**: 923 · **Contributors**: 169
+- **Stars**: 13,375 · **Forks**: 674 · **Open issues**: 923 · **Contributors**: 169
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 1 | 6 | 0 | 1 | 4 |
-| last60d | 2026-09-03 | 0 | 3 | 7 | 0 | 2 | 6 |
-| 90d | 2026-08-04 | 0 | 4 | 10 | 3 | 4 | 9 |
-| last180d | 2026-05-06 | 1 | 7 | 12 | 7 | 13 | 21 |
-| 360d | 2025-11-07 | 1 | 9 | 15 | 14 | 22 | 40 |
-| last720d | 2024-11-12 | 4 | 12 | 20 | 30 | 31 | 81 |
+| 30d | 2026-10-04 | 0 | 1 | 5 | 0 | 1 | 4 |
+| last60d | 2026-09-04 | 0 | 3 | 7 | 0 | 2 | 6 |
+| 90d | 2026-08-05 | 0 | 4 | 10 | 3 | 4 | 9 |
+| last180d | 2026-05-07 | 1 | 7 | 12 | 7 | 13 | 21 |
+| 360d | 2025-11-08 | 1 | 9 | 15 | 14 | 22 | 40 |
+| last720d | 2024-11-13 | 4 | 12 | 20 | 30 | 31 | 81 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:24:00Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:06:47Z._
