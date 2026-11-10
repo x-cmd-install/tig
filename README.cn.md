@@ -24,16 +24,6 @@ x install tig
 | CHeader | 2,498 | 1,330 | 673 | 43 |
 | Autoconf | 2,166 | 6 | 96 | 6 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **3.6 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/jonas/tig>
@@ -58,12 +48,12 @@ x install tig
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 1 | 5 | 0 | 1 | 4 |
-| last60d | 2026-09-09 | 0 | 2 | 7 | 0 | 2 | 6 |
-| 90d | 2026-08-10 | 0 | 4 | 10 | 3 | 3 | 9 |
-| last180d | 2026-05-12 | 1 | 7 | 12 | 6 | 13 | 21 |
-| 360d | 2025-11-13 | 1 | 9 | 15 | 14 | 22 | 40 |
-| last720d | 2024-11-18 | 4 | 12 | 20 | 30 | 31 | 81 |
+| 30d | 2026-10-11 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-11 | 0 | 2 | 7 | 0 | 2 | 6 |
+| 90d | 2026-08-12 | 0 | 4 | 10 | 3 | 3 | 9 |
+| last180d | 2026-05-14 | 1 | 7 | 12 | 6 | 13 | 21 |
+| 360d | 2025-11-15 | 1 | 9 | 15 | 14 | 22 | 40 |
+| last720d | 2024-11-20 | 4 | 12 | 20 | 30 | 31 | 81 |
 
 ## Release 资产
 
@@ -100,4 +90,4 @@ tig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T07:03:23Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T08:35:23Z._
