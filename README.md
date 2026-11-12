@@ -14,12 +14,12 @@ x install tig
 
 ## Code insight
 
-Total: **57,885** lines of code across **276** files in the top 5 languages.
+Total: **57,937** lines of code across **277** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 35,037 | 1,581 | 3,826 | 48 |
-| Sh | 13,724 | 628 | 2,734 | 170 |
+| Sh | 13,776 | 629 | 2,741 | 171 |
 | AsciiDoc | 3,250 | 15 | 871 | 9 |
 | CHeader | 2,498 | 1,330 | 673 | 43 |
 | Autoconf | 2,166 | 6 | 96 | 6 |
@@ -33,27 +33,27 @@ Total: **57,885** lines of code across **276** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tig-2.6.1` (2026-06-13)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-11-11
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 13,378 · **Forks**: 675 · **Open issues**: 923 · **Contributors**: 169
+- **Stars**: 13,378 · **Forks**: 675 · **Open issues**: 924 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 300 · **Open PRs**: 41 · **Closed issues**: 728 · **Open issues**: 195 · **Commits**: 2926
+- **Releases**: 34 · **Merged PRs**: 302 · **Open PRs**: 40 · **Closed issues**: 728 · **Open issues**: 196 · **Commits**: 2928
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-12 | 0 | 1 | 7 | 0 | 2 | 6 |
-| 90d | 2026-08-13 | 0 | 4 | 10 | 3 | 3 | 9 |
-| last180d | 2026-05-15 | 1 | 7 | 12 | 6 | 13 | 21 |
-| 360d | 2025-11-16 | 1 | 9 | 15 | 14 | 22 | 40 |
-| last720d | 2024-11-21 | 4 | 12 | 20 | 30 | 31 | 81 |
+| 30d | 2026-10-13 | 0 | 2 | 4 | 0 | 2 | 2 |
+| last60d | 2026-09-13 | 0 | 3 | 6 | 0 | 3 | 8 |
+| 90d | 2026-08-14 | 0 | 6 | 9 | 3 | 4 | 11 |
+| last180d | 2026-05-16 | 1 | 9 | 11 | 6 | 14 | 23 |
+| 360d | 2025-11-17 | 1 | 11 | 14 | 14 | 23 | 42 |
+| last720d | 2024-11-22 | 4 | 14 | 19 | 30 | 32 | 83 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **57,885** lines of code across **276** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **153** distros on [repology.org](https://repology.org/project/tig). **57** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **152** distros on [repology.org](https://repology.org/project/tig). **57** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:34:51Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T09:00:09Z._
