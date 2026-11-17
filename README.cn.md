@@ -24,6 +24,16 @@ x install tig
 | CHeader | 2,498 | 1,330 | 673 | 43 |
 | Autoconf | 2,166 | 6 | 96 | 6 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **3.7 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/jonas/tig>
@@ -38,7 +48,7 @@ x install tig
 
 ## 流行度
 
-- **Star**: 13,381 · **Fork**: 678 · **开放 issue**: 924 · **贡献者**: 169
+- **Star**: 13,382 · **Fork**: 678 · **开放 issue**: 924 · **贡献者**: 169
 
 ## 累计统计
 
@@ -48,12 +58,12 @@ x install tig
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 6 | 0 | 1 | 2 |
-| last60d | 2026-09-17 | 0 | 3 | 8 | 0 | 3 | 6 |
-| 90d | 2026-08-18 | 0 | 6 | 11 | 3 | 4 | 10 |
-| last180d | 2026-05-20 | 1 | 9 | 13 | 6 | 14 | 22 |
-| 360d | 2025-11-21 | 1 | 11 | 16 | 12 | 23 | 42 |
-| last720d | 2024-11-26 | 4 | 14 | 21 | 30 | 32 | 83 |
+| 30d | 2026-10-18 | 0 | 0 | 6 | 0 | 1 | 2 |
+| last60d | 2026-09-18 | 0 | 3 | 8 | 0 | 3 | 6 |
+| 90d | 2026-08-19 | 0 | 6 | 9 | 2 | 4 | 10 |
+| last180d | 2026-05-21 | 1 | 9 | 13 | 6 | 14 | 22 |
+| 360d | 2025-11-22 | 1 | 11 | 16 | 12 | 23 | 42 |
+| last720d | 2024-11-27 | 4 | 14 | 21 | 30 | 32 | 83 |
 
 ## Release 资产
 
@@ -61,25 +71,6 @@ x install tig
 |------|-----:|----------|
 | [tig-2.6.1.tar.gz](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz) | 1.1 MiB | `native/unknown` |
 | [tig-2.6.1.tar.gz.sha256](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz.sha256) | 83 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/tig) 上共有 **153** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**68** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.6.1` | ✅ latest |
-| Debian 14 | `2.6.1` | ✅ latest |
-| Debian 13 | `2.5.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.5.8` | ⚠️ outdated |
-| Arch | `2.6.1` | ✅ latest |
-| Homebrew | `2.6.1` | ✅ latest |
-| Fedora rawhide | `2.6.1` | ✅ latest |
-| Nix unstable | `2.6.1` | ✅ latest |
-| Void | `2.6.1` | ✅ latest |
-| Alpine edge | `2.6.1` | ✅ latest |
-| openSUSE Tumbleweed | `2.6.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -90,4 +81,4 @@ tig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:39:44Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T11:05:37Z._

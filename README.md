@@ -24,6 +24,16 @@ Total: **57,937** lines of code across **277** files in the top 5 languages.
 | CHeader | 2,498 | 1,330 | 673 | 43 |
 | Autoconf | 2,166 | 6 | 96 | 6 |
 
+## OpenSSF Scorecard
+
+Overall score: **3.7 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/jonas/tig>
@@ -38,7 +48,7 @@ Total: **57,937** lines of code across **277** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 13,381 · **Forks**: 678 · **Open issues**: 924 · **Contributors**: 169
+- **Stars**: 13,382 · **Forks**: 678 · **Open issues**: 924 · **Contributors**: 169
 
 ## Totals (cumulative)
 
@@ -48,12 +58,12 @@ Total: **57,937** lines of code across **277** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 6 | 0 | 1 | 2 |
-| last60d | 2026-09-17 | 0 | 3 | 8 | 0 | 3 | 6 |
-| 90d | 2026-08-18 | 0 | 6 | 11 | 3 | 4 | 10 |
-| last180d | 2026-05-20 | 1 | 9 | 13 | 6 | 14 | 22 |
-| 360d | 2025-11-21 | 1 | 11 | 16 | 12 | 23 | 42 |
-| last720d | 2024-11-26 | 4 | 14 | 21 | 30 | 32 | 83 |
+| 30d | 2026-10-18 | 0 | 0 | 6 | 0 | 1 | 2 |
+| last60d | 2026-09-18 | 0 | 3 | 8 | 0 | 3 | 6 |
+| 90d | 2026-08-19 | 0 | 6 | 9 | 2 | 4 | 10 |
+| last180d | 2026-05-21 | 1 | 9 | 13 | 6 | 14 | 22 |
+| 360d | 2025-11-22 | 1 | 11 | 16 | 12 | 23 | 42 |
+| last720d | 2024-11-27 | 4 | 14 | 21 | 30 | 32 | 83 |
 
 ## Release assets
 
@@ -61,25 +71,6 @@ Total: **57,937** lines of code across **277** files in the top 5 languages.
 |-------|-----:|--------|
 | [tig-2.6.1.tar.gz](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz) | 1.1 MiB | `native/unknown` |
 | [tig-2.6.1.tar.gz.sha256](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz.sha256) | 83 B | `other` |
-
-## Distribution status
-
-Reported by **153** distros on [repology.org](https://repology.org/project/tig). **58** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.6.1` | ✅ latest |
-| Debian 14 | `2.6.1` | ✅ latest |
-| Debian 13 | `2.5.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.5.8` | ⚠️ outdated |
-| Arch | `2.6.1` | ✅ latest |
-| Homebrew | `2.6.1` | ✅ latest |
-| Fedora rawhide | `2.6.1` | ✅ latest |
-| Nix unstable | `2.6.1` | ✅ latest |
-| Void | `2.6.1` | ✅ latest |
-| Alpine edge | `2.6.1` | ✅ latest |
-| openSUSE Tumbleweed | `2.6.1` | ✅ latest |
 
 ## Improve this data
 
@@ -90,4 +81,4 @@ Install metadata for tig lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:39:43Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T11:05:36Z._
