@@ -1,3 +1,42 @@
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tig
+  binnames:
+    - tig
+  visiblename: tig
+  version: 2.4.1
+  origversion: 2.4.1-1
+  status: outdated
+  maintainers:
+    - tokkee@debian.org
+  categories:
+    - vcs
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tig
+  binnames:
+    - tig
+  visiblename: tig
+  version: 2.5.1
+  origversion: 2.5.1-1
+  status: outdated
+  maintainers:
+    - tokkee@debian.org
+  categories:
+    - vcs
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tig
+  binnames:
+    - tig
+  visiblename: tig
+  version: 2.5.8
+  origversion: 2.5.8-1
+  status: outdated
+  maintainers:
+    - tokkee@debian.org
+  categories:
+    - vcs
 - repo: raspbian_oldstable
   subrepo: main
   srcname: tig
@@ -38,188 +77,164 @@
     - tokkee@debian.org
   categories:
     - vcs
-- repo: chimera
-  subrepo: user
+- repo: pkgsrc_current
+  srcname: devel/tig
+  binname: tig
+  visiblename: devel/tig
+  version: 2.5.12
+  origversion: null
+  status: outdated
+  summary: Ncurses-based GIT repository tool
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: alpine_3_17
+  subrepo: main
+  srcname: tig
+  binname: tig-doc
+  visiblename: tig-doc
+  version: 2.5.7
+  origversion: 2.5.7-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system (documentation)
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: main
   srcname: tig
   binname: tig
+  visiblename: tig
+  version: 2.5.7
+  origversion: 2.5.7-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: main
+  srcname: tig
+  binname: tig
+  visiblename: tig
+  version: 2.5.8
+  origversion: 2.5.8-r2
+  status: outdated
+  summary: Text-mode interface for the git revision control system
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: main
+  srcname: tig
+  binname: tig-doc
+  visiblename: tig-doc
+  version: 2.5.8
+  origversion: 2.5.8-r2
+  status: outdated
+  summary: Text-mode interface for the git revision control system (documentation)
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: crux_37
+  subrepo: contrib
+  srcname: tig
+  visiblename: tig
+  version: 2.5.12
+  origversion: null
+  status: outdated
+  summary: text-mode interface for git
+  maintainers:
+    - jue@crux.nu
+- repo: alpine_3_19
+  subrepo: main
+  srcname: tig
+  binname: tig
+  visiblename: tig
+  version: 2.5.8
+  origversion: 2.5.8-r2
+  status: outdated
+  summary: Text-mode interface for the git revision control system
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: tig
+  binname: tig-doc
+  visiblename: tig-doc
+  version: 2.5.8
+  origversion: 2.5.8-r2
+  status: outdated
+  summary: Text-mode interface for the git revision control system (documentation)
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: tig
+  binname: tig
+  visiblename: tig
+  version: 2.5.10
+  origversion: 2.5.10-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: tig
+  binname: tig-doc
+  visiblename: tig-doc
+  version: 2.5.10
+  origversion: 2.5.10-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: tig
+  binname: tig
+  visiblename: tig
+  version: 2.5.10
+  origversion: 2.5.10-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: tig
+  binname: tig-doc
+  visiblename: tig-doc
+  version: 2.5.10
+  origversion: 2.5.10-r0
+  status: outdated
+  summary: Text-mode interface for the git revision control system (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: pld
+  srcname: tig
   visiblename: tig
   version: 2.6.1
-  origversion: 2.6.1-r0
+  origversion: 2.6.1-2
   status: newest
-  summary: Text-mode interface for git
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_11
-  srcname: tig
-  visiblename: tig
-  version: 2.5.12
-  origversion: null
-  status: outdated
-  summary: Text-mode interface for git
-  maintainers:
-    - bjorn.forsman@gmail.com
-    - domen@dev.si
-    - js@lastlog.de
-    - mail@glob.in
-    - maximilian@mbosch.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_05
-  srcname: tig
-  visiblename: tig
-  version: 2.5.12
-  origversion: null
-  status: outdated
-  summary: Text-mode interface for git
-  maintainers:
-    - bjorn.forsman@gmail.com
-    - domen@dev.si
-    - js@lastlog.de
-    - mail@glob.in
-    - maximilian@mbosch.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: artix_testing
-  subrepo: galaxy-gremlins
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.6.0
-  origversion: 2.6.0-1
-  status: outdated
-  summary: Text-mode interface for Git.
-  licenses:
-    - GPL
-- repo: alpine_3_17
-  subrepo: main
-  srcname: tig
-  binname: tig-doc
-  visiblename: tig-doc
-  version: 2.5.7
-  origversion: 2.5.7-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system (documentation)
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: main
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.5.7
-  origversion: 2.5.7-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: main
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.5.8
-  origversion: 2.5.8-r2
-  status: outdated
-  summary: Text-mode interface for the git revision control system
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: main
-  srcname: tig
-  binname: tig-doc
-  visiblename: tig-doc
-  version: 2.5.8
-  origversion: 2.5.8-r2
-  status: outdated
-  summary: Text-mode interface for the git revision control system (documentation)
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.5.8
-  origversion: 2.5.8-r2
-  status: outdated
-  summary: Text-mode interface for the git revision control system
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: tig
-  binname: tig-doc
-  visiblename: tig-doc
-  version: 2.5.8
-  origversion: 2.5.8-r2
-  status: outdated
-  summary: Text-mode interface for the git revision control system (documentation)
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.5.10
-  origversion: 2.5.10-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: tig
-  binname: tig-doc
-  visiblename: tig-doc
-  version: 2.5.10
-  origversion: 2.5.10-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: tig
-  binname: tig
-  visiblename: tig
-  version: 2.5.10
-  origversion: 2.5.10-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: tig
-  binname: tig-doc
-  visiblename: tig-doc
-  version: 2.5.10
-  origversion: 2.5.10-r0
-  status: outdated
-  summary: Text-mode interface for the git revision control system (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_22
   subrepo: main
   srcname: tig
@@ -231,20 +246,6 @@
   summary: Text-mode interface for the git revision control system
   maintainers:
     - cielesti@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: tig
-  visiblename: tig
-  version: 2.6.0
-  origversion: null
-  status: outdated
-  summary: Text-mode interface for git
-  maintainers:
-    - bjorn.forsman@gmail.com
-    - js@lastlog.de
-    - mail@glob.in
-    - maximilian@mbosch.me
   licenses:
     - GPL-2.0-or-later
 - repo: alpine_3_22
@@ -417,19 +418,28 @@
     - eworm@aur
   licenses:
     - GPL
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: artix_testing
+  subrepo: galaxy-gremlins
   srcname: tig
-  binnames:
-    - tig
+  binname: tig
   visiblename: tig
-  version: 2.4.1
-  origversion: 2.4.1-1
+  version: 2.6.0
+  origversion: 2.6.0-1
   status: outdated
-  maintainers:
-    - tokkee@debian.org
-  categories:
-    - vcs
+  summary: Text-mode interface for Git.
+  licenses:
+    - GPL
+- repo: chimera
+  subrepo: user
+  srcname: tig
+  binname: tig
+  visiblename: tig
+  version: 2.6.1
+  origversion: 2.6.1-r0
+  status: newest
+  summary: Text-mode interface for git
+  licenses:
+    - GPL-2.0-or-later
 - repo: chimera
   subrepo: user
   srcname: tig
@@ -472,16 +482,6 @@
   summary: Tig is an ncurses-based text-mode interface for git.
   licenses:
     - GPL-2
-- repo: crux_37
-  subrepo: contrib
-  srcname: tig
-  visiblename: tig
-  version: 2.5.12
-  origversion: null
-  status: outdated
-  summary: text-mode interface for git
-  maintainers:
-    - jue@crux.nu
 - repo: crux_38
   subrepo: contrib
   srcname: tig
@@ -740,22 +740,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: tig
-  binnames:
-    - tig
-    - tig-debuginfo
-    - tig-debugsource
-  visiblename: tig
-  version: 2.5.8
-  origversion: 2.5.8-4.fc40
-  status: legacy
-  summary: Text-mode interface for the git revision control system
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: tig
   binnames:
@@ -766,6 +750,22 @@
   version: 2.5.12
   origversion: 2.5.12-1.fc40
   status: outdated
+  summary: Text-mode interface for the git revision control system
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: tig
+  binnames:
+    - tig
+    - tig-debuginfo
+    - tig-debugsource
+  visiblename: tig
+  version: 2.5.8
+  origversion: 2.5.8-4.fc40
+  status: legacy
   summary: Text-mode interface for the git revision control system
   licenses:
     - GPL-2.0-or-later
@@ -877,6 +877,20 @@
   visiblename: tig
   version: 2.6.1
   origversion: 2.6.1-1.fc44
+  status: newest
+  summary: Text-mode interface for the git revision control system
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: tig
+  binnames:
+    - tig
+  visiblename: tig
+  version: 2.6.1
+  origversion: 2.6.1-2.fc45
   status: newest
   summary: Text-mode interface for the git revision control system
   licenses:
@@ -1140,32 +1154,6 @@
     - GPL-2
   categories:
     - dev-vcs
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tig
-  binnames:
-    - tig
-  visiblename: tig
-  version: 2.5.1
-  origversion: 2.5.1-1
-  status: outdated
-  maintainers:
-    - tokkee@debian.org
-  categories:
-    - vcs
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tig
-  binnames:
-    - tig
-  visiblename: tig
-  version: 2.5.8
-  origversion: 2.5.8-1
-  status: outdated
-  maintainers:
-    - tokkee@debian.org
-  categories:
-    - vcs
 - repo: liguros_develop
   srcname: dev-vcs/tig
   visiblename: dev-vcs/tig
@@ -1246,22 +1234,6 @@
     - GPL-2+
   categories:
     - devel
-- repo: mageia_9
-  subrepo: core/release
-  srcname: tig
-  binnames:
-    - tig
-    - tig-debuginfo
-    - tig-debugsource
-  visiblename: tig
-  version: 2.5.8
-  origversion: 2.5.8-1.mga9
-  status: outdated
-  summary: Text-mode interface for git
-  licenses:
-    - GPLv3
-  categories:
-    - Development/Tools
 - repo: mageia_10
   subrepo: core/release
   srcname: tig
@@ -1358,6 +1330,50 @@
   maintainers:
     - bjorn.forsman@gmail.com
     - domen@dev.si
+    - js@lastlog.de
+    - mail@glob.in
+    - maximilian@mbosch.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: tig
+  visiblename: tig
+  version: 2.5.12
+  origversion: null
+  status: outdated
+  summary: Text-mode interface for git
+  maintainers:
+    - bjorn.forsman@gmail.com
+    - domen@dev.si
+    - js@lastlog.de
+    - mail@glob.in
+    - maximilian@mbosch.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: tig
+  visiblename: tig
+  version: 2.5.12
+  origversion: null
+  status: outdated
+  summary: Text-mode interface for git
+  maintainers:
+    - bjorn.forsman@gmail.com
+    - domen@dev.si
+    - js@lastlog.de
+    - mail@glob.in
+    - maximilian@mbosch.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: tig
+  visiblename: tig
+  version: 2.6.0
+  origversion: null
+  status: outdated
+  summary: Text-mode interface for git
+  maintainers:
+    - bjorn.forsman@gmail.com
     - js@lastlog.de
     - mail@glob.in
     - maximilian@mbosch.me
@@ -1508,7 +1524,7 @@
   categories:
     - vcs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: tig
   binnames:
     - tig
@@ -1521,7 +1537,7 @@
   categories:
     - vcs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: tig
   binnames:
     - tig
@@ -1566,24 +1582,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_current
-  srcname: devel/tig
-  binname: tig
-  visiblename: devel/tig
-  version: 2.5.12
-  origversion: null
-  status: outdated
-  summary: Ncurses-based GIT repository tool
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: pld
-  srcname: tig
-  visiblename: tig
-  version: 2.6.1
-  origversion: 2.6.1-2
-  status: newest
 - repo: ravenports
   srcname: tig
   binname: tig
