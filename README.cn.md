@@ -48,22 +48,22 @@ x install tig
 
 ## 流行度
 
-- **Star**: 13,382 · **Fork**: 678 · **开放 issue**: 924 · **贡献者**: 169
+- **Star**: 13,385 · **Fork**: 678 · **开放 issue**: 925 · **贡献者**: 169
 
 ## 累计统计
 
-- **发布数**: 34 · **已合并 PR**: 302 · **开放 PR**: 42 · **已关闭 issue**: 728 · **开放 issue**: 196 · **提交数**: 2928
+- **发布数**: 34 · **已合并 PR**: 302 · **开放 PR**: 42 · **已关闭 issue**: 728 · **开放 issue**: 197 · **提交数**: 2928
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 6 | 0 | 1 | 2 |
-| last60d | 2026-09-18 | 0 | 3 | 8 | 0 | 3 | 6 |
-| 90d | 2026-08-19 | 0 | 6 | 9 | 2 | 4 | 10 |
-| last180d | 2026-05-21 | 1 | 9 | 13 | 6 | 14 | 22 |
-| 360d | 2025-11-22 | 1 | 11 | 16 | 12 | 23 | 42 |
-| last720d | 2024-11-27 | 4 | 14 | 21 | 30 | 32 | 83 |
+| 30d | 2026-10-20 | 0 | 0 | 6 | 0 | 2 | 2 |
+| last60d | 2026-09-20 | 0 | 3 | 8 | 0 | 4 | 6 |
+| 90d | 2026-08-21 | 0 | 5 | 9 | 1 | 5 | 10 |
+| last180d | 2026-05-23 | 1 | 9 | 13 | 6 | 15 | 22 |
+| 360d | 2025-11-24 | 1 | 11 | 16 | 12 | 24 | 42 |
+| last720d | 2024-11-29 | 4 | 14 | 21 | 30 | 33 | 83 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install tig
 |------|-----:|----------|
 | [tig-2.6.1.tar.gz](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz) | 1.1 MiB | `native/unknown` |
 | [tig-2.6.1.tar.gz.sha256](https://github.com/jonas/tig/releases/download/tig-2.6.1/tig-2.6.1.tar.gz.sha256) | 83 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/tig) 上共有 **153** 个发行版报告此项目。**59** 个 ✅ 已是最新上游版本，**67** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.6.1` | ✅ latest |
+| Debian 14 | `2.6.1` | ✅ latest |
+| Debian 13 | `2.5.8` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.5.8` | ⚠️ outdated |
+| Arch | `2.6.1` | ✅ latest |
+| Homebrew | `2.6.1` | ✅ latest |
+| Fedora rawhide | `2.6.1` | ✅ latest |
+| Nix unstable | `2.6.1` | ✅ latest |
+| Void | `2.6.1` | ✅ latest |
+| Alpine edge | `2.6.1` | ✅ latest |
+| openSUSE Tumbleweed | `2.6.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ tig 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T11:05:37Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:21:38Z._
